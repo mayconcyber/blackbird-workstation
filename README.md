@@ -61,23 +61,3 @@ Roteiro manual autorizado, no seu computador:
 6. Exporte JSON e confira as listas `interfaces`, `tcp` e o horário UTC `captured_at`. O filtro da tela não reduz a exportação.
 7. Durante a coleta, mova a janela: ela deve continuar respondendo, e o botão de consulta deve ficar desabilitado até o término.
 8. Meça o processo Python e o PowerShell no Gerenciador de Tarefas, antes/durante/depois da coleta. Repita dez consultas e observe se a memória estabiliza. Não foi definido um consumo garantido para todos os notebooks.
-
-## Próximas entregas e estudos até 2030
-
-Esta é uma trilha proposta a partir do pedido disponível; as respostas completas da conversa anterior não puderam ser recuperadas.
-
-| Etapa | Estudos | Entrega prática |
-|---|---|---|
-| 2026–2027 | Python, Git, testes, processos, TCP/IP, DNS, sub-redes | Network Inspector; diário de exercícios local em SQLite; leitor de logs |
-| 2027 | Linux, permissões, shell, serviços, SSH, firewall | Laboratório WSL2 com exercícios e checklist de administração |
-| 2028 | HTTP, autenticação, Java e orientação a objetos, segurança de aplicações | Aplicação Java local com falhas didáticas e respectivas correções; testes em laboratório próprio |
-| 2029 | Análise de logs, resposta a incidentes, detecção e hardening | Módulo defensivo com eventos sintéticos e relatórios de investigação |
-| 2030 | Avaliação ofensiva autorizada, validação de correções, documentação | Projeto integrado de ataque/detecção/correção em laboratório isolado e relatório de escopo |
-
-Python inicia a ferramenta e a automação. Java entra como segunda linguagem para aprofundar aplicações e seus controles de segurança. O primeiro exercício de programação é adicionar uma visualização UDP usando um coletor separado e testes, sem misturar consultas com widgets.
-
-## Referências técnicas
-
-- Tkinter: https://docs.python.org/3/library/tkinter.html
-- Get-NetTCPConnection: https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection
-- NetTCPIP: https://learn.microsoft.com/en-us/powershell/module/nettcpip/
